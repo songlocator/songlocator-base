@@ -1,0 +1,21 @@
+{
+  "name": "songlocator-base",
+  "version": "0.1.0",
+  "description": "SongLocator base module",
+  "main": "songlocator-base.js",
+  "dependencies": {
+    "xmlhttprequest": "~1.5.0"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/songlocator/songlocator-base.git"
+  },
+  "homepage": "https://github.com/songlocator/songlocator-base",
+  "keywords": ["api", "music", "streaming", "audio", "resolver"],
+  "author": {
+      "name": "Andrey Popp",
+      "email": "8mayday@gmail.com",
+      "url": "http://andreypopp.com"
+  },
+  "license": "MIT"
+}
