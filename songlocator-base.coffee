@@ -11,9 +11,9 @@
     module.exports = factory(XMLHttpRequest)
   else if typeof define == 'function' and define.amd
     define (require) ->
-      root.SongLocator = factory(XMLHttpRequest)
+      root.SongLocator = factory(window.XMLHttpRequest)
   else
-    root.SongLocator = factory(XMLHttpRequest)
+    root.SongLocator = factory(window.XMLHttpRequest)
 
 ) this, (XMLHttpRequest) ->
 

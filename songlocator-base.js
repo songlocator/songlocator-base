@@ -18,10 +18,10 @@ var __slice = [].slice,
     return module.exports = factory(XMLHttpRequest);
   } else if (typeof define === 'function' && define.amd) {
     return define(function(require) {
-      return root.SongLocator = factory(XMLHttpRequest);
+      return root.SongLocator = factory(window.XMLHttpRequest);
     });
   } else {
-    return root.SongLocator = factory(XMLHttpRequest);
+    return root.SongLocator = factory(window.XMLHttpRequest);
   }
 })(this, function(XMLHttpRequest) {
   var BaseResolver, EventEmitter, Module, ResolverSet, ResolverShortcuts, abs, damerauLevenshtein, extend, idCounter, isArray, min, normalize, pow, rankSearchResults, spaceNormalizeRe, tokenNormalizeRe, tokenize, uniqueId, urlencode, xhrGET, xhrPOST;
