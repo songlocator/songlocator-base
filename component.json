@@ -1,8 +1,8 @@
 {
   "name": "songlocator-base",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SongLocator base module",
-  "tags": ["api", "music", "streaming", "audio", "resolver"],
+  "tags": ["songlocator", "api", "music", "streaming", "audio", "resolver"],
   "author": "Andrey Popp <8mayday@gmail.com>",
   "main": ["./songlocator-base.js"],
   "dependencies": {}
