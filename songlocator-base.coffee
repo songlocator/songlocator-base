@@ -179,7 +179,7 @@
       throw new Error('not implemented')
 
     resolve: (qid, track, artist, album) ->
-      query = (artist or '') + (track or '')
+      query = "#{artist or ''} #{track or ''}"
       this.search(qid, query.trim())
 
     results: (qid, results) ->

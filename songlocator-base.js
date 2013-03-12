@@ -259,7 +259,7 @@ var __slice = [].slice,
 
     BaseResolver.prototype.resolve = function(qid, track, artist, album) {
       var query;
-      query = (artist || '') + (track || '');
+      query = "" + (artist || '') + " " + (track || '');
       return this.search(qid, query.trim());
     };
 
